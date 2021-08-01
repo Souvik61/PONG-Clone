@@ -202,7 +202,7 @@ public class GameManagerNew : MonoBehaviour
         //If name=="Paddle 1" return -1 else 1
         return (paddle.name.Equals("Paddle 1")) ? -1 : 1;
     }
-    //Paddle specific offset
+    //Paddle specific offse
     float GetPaddleOffset(GameObject paddle)
     {
         return (paddle.name.Equals("Paddle 1")) ? 0.55f : -0.55f;
